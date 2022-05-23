@@ -11,7 +11,7 @@ function App() {
           <a
             href="https://github.com/lscalise17/reactweather"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             {" "}
             Open-Sourced on GitHub
@@ -20,7 +20,7 @@ function App() {
           <a
             href="https://kaleidoscopic-starlight-582d3f.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             {" "}
             Hosted on Netlify
