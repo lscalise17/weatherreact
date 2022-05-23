@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
-        <Weather />
+        <Weather defaultCity="Chicago" />
         <footer>
           <a
-            href="https://github.com/lscalise17/reactweather"
+            href="https://github.com/lscalise17/weatherreact"
             target="_blank"
             rel=" noopener noreferrer"
           >
@@ -18,7 +18,7 @@ function App() {
           </a>
           {""} by Lauren Akinrinade and{" "}
           <a
-            href="https://kaleidoscopic-starlight-582d3f.netlify.app/"
+            href="https://idyllic-tapioca-275a99.netlify.app/"
             target="_blank"
             rel=" noopener noreferrer"
           >
