@@ -1,38 +1,107 @@
-.App {
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  min-height: 700px;
+}
+
+h1 {
+  color: #e93e69;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+  margin-left: -25px;
+}
+footer {
+  margin-left: 420px;
+  font-size: 12px;
+  margin-top: -15px;
+}
+hr {
+  color: black;
+}
+
+#update {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #114670;
+}
+
+.Description {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 5px solid #fe85a3;
+  border-radius: 5px;
+}
+#search-text-input {
+  display: block;
+  margin-left: 10px;
+  height: 37px;
+}
+#search-btn {
+  display: block;
+  border: 1px solid #fe85a3;
+  background-color: #fe85a3;
+  margin-left: -175px;
+}
+#search-btn:hover {
+  background: white;
+  color: #fe85a3;
+  transition-duration: 0.25s;
+}
+.resize {
+  width: 80px;
+  margin-right: 10px;
+  float: left;
+}
+#weather-condition {
+  text-align: left;
+  margin-top: -10px;
+  margin-left: -2px;
+  color: #e93e69;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.temp strong {
+  color: #ad48bc;
+  font-size: 50px;
+}
+.temp .unit {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+}
+.temp .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.forecast {
+  margin-top: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dates {
+  font-size: 20px;
+  color: #0aaaf5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-temp {
+  font-size: 14px;
+  color: #0aaaf5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-temp-max {
+  font-weight: 800;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-temp-min {
+  opacity: 0.9;
 }
